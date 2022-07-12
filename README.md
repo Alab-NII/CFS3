@@ -1,6 +1,6 @@
 # CFS3
 
-The Communicative-Function-labeled Semantic Scholar Dataset (CFS3) is a distantly-labeled sentence dataset that includes 100,016 sentences with 77 communicative-function labels.  
+The Communicative-Function-labeled Semantic Scholar Sentence Dataset (CFS3) is a distantly-labeled dataset that includes 100,016 sentences with 77 communicative-function labels.  
 All sentences are derived from [S2ORC](https://github.com/allenai/s2orc).
 
 ---
