@@ -1,5 +1,10 @@
 # CFS3
 
+The Communicative-Function-labeled Semantic Scholar Dataset (CFS3) is a distantly-labeled sentence dataset that includes 100,016 sentences with 77 communicative-function labels.  
+All sentences are derived from [S2ORC](https://github.com/allenai/s2orc).
+
+---
+
 Each label number corresponds to a total of 80 different functional classes included in one of the links below (accessed Nov. 2021).
 
 - https://www.phrasebank.manchester.ac.uk/introducing-work/ (label: 01 ~ 17)
@@ -95,3 +100,7 @@ Labels `15`, `29`, and `39` are assigned to no sentence.
 | 78 | 169 | 135 | 34 |
 | 79 | 2466 | 1973 | 493 |
 | 80 | 564 | 451 | 113 |
+
+## License
+
+CC BY-NC 4.0
