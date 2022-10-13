@@ -3,6 +3,26 @@
 The Communicative-Function-labeled Semantic Scholar Sentence Dataset (CFS3) is a distantly-labeled dataset that includes 100,016 sentences with 77 communicative-function labels.  
 All sentences are derived from [S2ORC](https://github.com/allenai/s2orc).
 
+If you find this useful, please cite [our work](https://aclanthology.org/2022.sdp-1.7/).
+
+#### citation
+
+```
+@inproceedings{sugimoto-aizawa-2022-incorporating,
+    title = "Incorporating the Rhetoric of Scientific Language into Sentence Embeddings using Phrase-guided Distant Supervision and Metric Learning",
+    author = "Sugimoto, Kaito  and
+      Aizawa, Akiko",
+    booktitle = "Proceedings of the Third Workshop on Scholarly Document Processing",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.sdp-1.7",
+    pages = "54--68",
+    abstract = "Communicative functions are an important rhetorical feature of scientific writing. Sentence embeddings that contain such features are highly valuable for the argumentative analysis of scientific documents, with applications in document alignment, recommendation, and academic writing assistance. Moreover, embeddings can provide a possible solution to the open-set problem, where models need to generalize to new communicative functions unseen at training time. However, existing sentence representation models are not suited for detecting functional similarity since they only consider lexical or semantic similarities. To remedy this, we propose a combined approach of distant supervision and metric learning to make a representation model more aware of the functional part of a sentence. We first leverage an existing academic phrase database to label sentences automatically with their functions. Then, we train an embedding model to capture similarities and dissimilarities from a rhetorical perspective. The experimental results demonstrate that the embeddings obtained from our model are more advantageous than existing models when retrieving functionally similar sentences. We also provide an extensive analysis of the performance differences between five metric learning objectives, revealing that traditional methods (e.g., softmax cross-entropy loss and triplet loss) outperform state-of-the-art techniques.",
+}
+```
+
 ---
 
 Each label number corresponds to a total of 80 different functional classes included in one of the links below (accessed Nov. 2021).
